@@ -1,0 +1,601 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Privacy Policy | Classroom</title>
+  <meta name="description"
+        content="Read the privacy policy for Classroom by Noon Creations, an offline classroom management and student attendance app for teachers.">
+
+  <meta name="theme-color" content="#f6f8f5">
+
+  <style>
+    :root {
+      --green: #176b50;
+      --green-dark: #104d3b;
+      --green-light: #eaf5ee;
+      --text: #202923;
+      --muted: #66736b;
+      --border: #e3e9e3;
+      --background: #f6f8f5;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 24px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--green);
+      overflow-wrap: anywhere;
+    }
+
+    .topbar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .topbar-inner {
+      max-width: 1080px;
+      margin: auto;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .app-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 13px;
+      background: var(--green);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-size: 23px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .brand-name {
+      font-size: 20px;
+      font-weight: 750;
+      letter-spacing: -0.5px;
+      line-height: 1.3;
+    }
+
+    .brand-subtitle {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 850px;
+      margin: 48px auto;
+      padding: 0 22px;
+    }
+
+    .hero {
+      padding: 38px 36px;
+      border-radius: 24px;
+      background: var(--green-dark);
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 5px 11px;
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 650;
+      letter-spacing: .6px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(30px, 5vw, 44px);
+      letter-spacing: -1.5px;
+      line-height: 1.2;
+      margin: 20px 0 12px;
+    }
+
+    .hero p {
+      color: #e1eee7;
+      margin: 0;
+      max-width: 620px;
+      font-size: 16px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      margin-top: 26px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,.2);
+    }
+
+    .meta-label {
+      display: block;
+      font-size: 12px;
+      color: #c2d9ce;
+      margin-bottom: 3px;
+    }
+
+    .meta-value {
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    .summary {
+      background: var(--white);
+      border: 1px solid #dce9df;
+      border-radius: 18px;
+      padding: 24px;
+      margin: 24px 0;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      box-shadow: 0 5px 20px rgba(20, 60, 40, .035);
+    }
+
+    .summary-icon {
+      width: 42px;
+      height: 42px;
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      border-radius: 13px;
+      background: var(--green-light);
+      font-size: 21px;
+    }
+
+    .summary h2 {
+      font-size: 17px;
+      margin: 0 0 5px;
+      letter-spacing: -.2px;
+    }
+
+    .summary p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .contents {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px 28px;
+      margin: 24px 0;
+    }
+
+    .contents h2 {
+      font-size: 16px;
+      margin: 0 0 12px;
+    }
+
+    .contents ol {
+      margin: 0;
+      padding-left: 21px;
+      columns: 2;
+      column-gap: 30px;
+    }
+
+    .contents li {
+      padding: 3px 0;
+      break-inside: avoid;
+      font-size: 14px;
+    }
+
+    .contents a {
+      text-decoration: none;
+    }
+
+    .contents a:hover {
+      text-decoration: underline;
+    }
+
+    .policy {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 12px 36px;
+    }
+
+    .section {
+      padding: 26px 0;
+      border-bottom: 1px solid var(--border);
+      scroll-margin-top: 20px;
+    }
+
+    .section:last-child {
+      border-bottom: 0;
+    }
+
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      line-height: 1.45;
+      letter-spacing: -.4px;
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .number {
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 750;
+      letter-spacing: .4px;
+      min-width: 22px;
+    }
+
+    .section p {
+      margin: 10px 0;
+      color: #465249;
+      font-size: 15px;
+    }
+
+    .section ul {
+      padding-left: 23px;
+      margin: 12px 0;
+      color: #465249;
+      font-size: 15px;
+    }
+
+    .section li {
+      padding: 4px 0;
+    }
+
+    .section strong {
+      color: #263c30;
+    }
+
+    .contact-card {
+      background: var(--green-light);
+      border-radius: 14px;
+      padding: 20px;
+      margin-top: 16px;
+    }
+
+    .contact-card p {
+      margin: 4px 0;
+      color: var(--green-dark);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px 10px 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer strong {
+      color: var(--green-dark);
+    }
+
+    @media (max-width: 600px) {
+      .topbar-inner {
+        padding: 16px 20px;
+      }
+
+      .page {
+        margin: 24px auto;
+        padding: 0 14px;
+      }
+
+      .hero {
+        padding: 27px 22px;
+        border-radius: 19px;
+      }
+
+      .meta {
+        gap: 15px 24px;
+      }
+
+      .summary {
+        padding: 19px;
+      }
+
+      .contents {
+        padding: 21px;
+      }
+
+      .contents ol {
+        columns: 1;
+      }
+
+      .policy {
+        padding: 6px 21px;
+        border-radius: 18px;
+      }
+
+      .section {
+        padding: 23px 0;
+      }
+
+      .section h2 {
+        font-size: 18px;
+      }
+
+      .section p,
+      .section ul {
+        font-size: 14px;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .topbar {
+        border-bottom: 1px solid #ddd;
+      }
+
+      .page {
+        margin: 15px auto;
+        max-width: 100%;
+      }
+
+      .hero {
+        background: white;
+        color: #173d2d;
+        border: 1px solid #ddd;
+      }
+
+      .hero p,
+      .meta-label {
+        color: #444;
+      }
+
+      .contents {
+        display: none;
+      }
+
+      .policy,
+      .summary {
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="app-icon" aria-hidden="true">C</div>
+      <div>
+        <div class="brand-name">Classroom</div>
+        <div class="brand-subtitle">by Noon Creations</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <span class="eyebrow">Privacy &amp; transparency</span>
+      <h1>Privacy Policy</h1>
+      <p>
+        Clear information about how Classroom handles teacher
+        and student records, with privacy at the center of its
+        offline-first design.
+      </p>
+
+      <div class="meta">
+        <div>
+          <span class="meta-label">Effective date</span>
+          <span class="meta-value">30 October 2026</span>
+        </div>
+        <div>
+          <span class="meta-label">Developer</span>
+          <span class="meta-value">Noon Creations</span>
+        </div>
+        <div>
+          <span class="meta-label">Contact</span>
+          <span class="meta-value">[SUPPORT EMAIL]</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="summary">
+      <div class="summary-icon" aria-hidden="true">✓</div>
+      <div>
+        <h2>Your data stays on your device</h2>
+        <p>
+          In the current free version, the developer does not
+          collect or receive the records you enter. Classroom
+          has no user accounts, no cloud sync, and no internet
+          permission. Read the full policy below for details
+          about sharing reports and app permissions.
+        </p>
+      </div>
+    </section>
+
+    <nav class="contents" aria-label="Table of contents">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#stored">Information the app stores</a></li>
+        <li><a href="#tracking">Collection, sharing and tracking</a></li>
+        <li><a href="#sharing">Sharing from the app</a></li>
+        <li><a href="#permissions">Permissions</a></li>
+        <li><a href="#students">Student data and responsibility</a></li>
+        <li><a href="#retention">Retention and deletion</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <article class="policy">
+      <section class="section" id="intro">
+        <h2><span class="number">01</span> Introduction</h2>
+        <p>
+          Classroom ("the app") is a classroom-management app
+          for teachers. This policy explains what the free
+          version of the app does with information. The short
+          version: everything the teacher enters stays on the
+          teacher's own device. The developer does not collect
+          it, receive it, or have any way to access it.
+        </p>
+        <p>
+          The app currently offers only its free feature set.
+          Paid features are not available at this time, and
+          this policy will be updated before any are released.
+        </p>
+      </section>
+
+      <section class="section" id="stored">
+        <h2><span class="number">02</span> Information the app stores</h2>
+        <p>
+          The app stores the records a teacher creates: the
+          class name and division, student names, roll numbers,
+          optional contact numbers and photos, attendance
+          records, the weekly class schedule, and app preferences.
+        </p>
+        <p>
+          This information is written to the app's private
+          storage on the device. It is not uploaded to the
+          developer or to any server operated by the developer.
+          The app has no user accounts, no sign-in, and no
+          cloud sync.
+        </p>
+      </section>
+
+      <section class="section" id="tracking">
+        <h2><span class="number">03</span> Collection, sharing and tracking</h2>
+        <ul>
+          <li>
+            The developer does <strong>not</strong> collect,
+            sell or share personal data.
+          </li>
+          <li>
+            The app contains <strong>no</strong> analytics,
+            advertising, crash-reporting or tracking SDKs.
+          </li>
+          <li>
+            The app has <strong>no internet permission</strong>.
+            It cannot send data anywhere on its own.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="sharing">
+        <h2><span class="number">04</span> Sharing from the app</h2>
+        <p>
+          When a teacher taps <strong>Share Report</strong>,
+          the app creates an image of that student's report
+          and hands it to Android's standard share sheet,
+          where the teacher picks the app to send it with
+          (for example WhatsApp). The teacher chooses the
+          recipient and sends it. Nothing is sent automatically.
+        </p>
+        <p>
+          The image is written to the app's cache first and is
+          removed by Android's normal cache cleanup. The
+          privacy policy of whichever app receives the image
+          applies to it.
+        </p>
+      </section>
+
+      <section class="section" id="permissions">
+        <h2><span class="number">05</span> Permissions</h2>
+        <ul>
+          <li>
+            <strong>Run after restart</strong>
+            (<code>RECEIVE_BOOT_COMPLETED</code>): lets Android
+            restore the app's scheduled maintenance after the
+            device restarts.
+          </li>
+          <li>
+            The app does not request location, camera,
+            microphone, contacts, SMS or broad file-access
+            permissions. Student photos are chosen through
+            Android's system photo picker, which only gives
+            the app the single image the teacher selects.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="students">
+        <h2><span class="number">06</span> Student data and responsibility</h2>
+        <p>
+          The app is intended for teachers and school staff.
+          Student information is entered and controlled by
+          the teacher. The teacher (or their school) is
+          responsible for having the appropriate permission
+          to store that information and for keeping the
+          device secure.
+        </p>
+        <p>
+          The app is not directed at children, and the
+          developer does not knowingly collect information
+          from anyone.
+        </p>
+      </section>
+
+      <section class="section" id="retention">
+        <h2><span class="number">07</span> Retention and deletion</h2>
+        <p>
+          Data stays on the device until the teacher deletes
+          it in the app, deletes the class it belongs to,
+          or uninstalls the app. Uninstalling removes the
+          app's private data.
+        </p>
+      </section>
+
+      <section class="section" id="changes">
+        <h2><span class="number">08</span> Changes to this policy</h2>
+        <p>
+          If the app's data practices change (for example,
+          if paid features or cloud sync are added), this
+          policy will be updated before those features are
+          released, and the effective date above will change.
+        </p>
+      </section>
+
+      <section class="section" id="contact">
+        <h2><span class="number">09</span> Contact</h2>
+        <p>
+          Questions about this policy or the app's data handling:
+        </p>
+        <div class="contact-card">
+          <p><strong>Developer:</strong> Davood Hakkim </p>
+          <p><strong>App:</strong> Classroom</p>
+          <p><strong>Email:</strong> nooncreationsdev@gmail.com </p>
+        </div>
+      </section>
+    </article>
+
+    <footer class="footer">
+      <strong>Classroom</strong> · Noon Creations
+      <br>
+      Privacy Policy · Effective 30 October 2026
+    </footer>
+  </main>
+</body>
+</html>
